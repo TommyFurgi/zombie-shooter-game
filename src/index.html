@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="board">
+        <div id="hearts">
+            <div class="heart full-heart" id="heart1"></div>
+            <div class="heart full-heart" id="heart2"></div>
+            <div class="heart full-heart" id="heart3"></div>
+        </div>
+
+        <button id="startButton" onclick="startGame()">Start game</button>
+
+        <div id="gameOverScreen" style="display: none;">
+            <h1>Game Over!</h1>
+            <p>Your score: <span id="finalScore">00000</span></p>
+            <button id="restartButton" onclick="resetGame()">Play again</button>
+        </div>
+
+        <div class="score">00030</div>
+
+    </div>
+        
+</body>
+</html>
