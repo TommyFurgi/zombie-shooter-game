@@ -1,9 +1,9 @@
 :root {
-    --background: url('../images/board-bg.jpg');
-    --zombie: url('../images/walkingdead.png');
-    --aim: url('../images/aim-resized.png');
-    --full-heart: url('../images/full_heart.png');
-    --empty-heart: url('../images/empty_heart.png');
+    --background: url('images/board-bg.jpg');
+    --zombie: url('images/walkingdead.png');
+    --aim: url('images/aim-resized.png');
+    --full-heart: url('images/full_heart.png');
+    --empty-heart: url('images/empty_heart.png');
 }
 
 body {
